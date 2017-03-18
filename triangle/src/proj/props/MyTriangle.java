@@ -3,7 +3,14 @@ package proj.props;
 import java.text.DecimalFormat;
 
 public class MyTriangle {
-
+	
+	/**
+	 * 
+	 * @param a
+	 * @param b
+	 * @param c
+	 * @return
+	 */
 	public boolean isCorrectTriangle(int a, int b, int c) {
 		// TODO Auto-generated method stub
 		if ( a > 0 && b > 0 && c > 0 &&
