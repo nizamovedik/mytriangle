@@ -31,12 +31,10 @@ public class Start {
 				String s = tr.triangleSquare(a, b, c);
 				System.out.println("Площадь треугольника = " + s);
 				
-				if (tr.isRectTriangle(a, b, c) == true) 
+				if (tr.isRectTriangle(a, b, c)) 
 					System.out.println("Треугольник прямоугольный");
-				else 
-					System.out.println("Треугольник не прямоугольный");
-				
-				System.out.println(tr.isEquilateral(a, b, c));
+				else
+					System.out.println(tr.isEquilateral(a, b, c));
 				
 			}
 				
