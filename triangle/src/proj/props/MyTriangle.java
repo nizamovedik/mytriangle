@@ -6,10 +6,9 @@ public class MyTriangle {
 	
 	/**
 	 * 
-	 * @param a
-	 * @param b
-	 * @param c
-	 * @return
+	 * @param a is side a
+	 * @param b is side b
+	 * @param c is side c
 	 */
 	public boolean isCorrectTriangle(int a, int b, int c) {
 		// TODO Auto-generated method stub
@@ -18,11 +17,23 @@ public class MyTriangle {
 			return true;
 		return false;
 	}
-	
+	/**
+	 * 
+	 * @param a is side a
+	 * @param b is side b
+	 * @param c is side c
+	 * @return Perimetr
+	 */
 	public int trianglePerimeter (int a, int b, int c) {
 		return a + b + c;
 	}
-	
+	/**
+	 * 
+	 * @param a is side a
+	 * @param b is b side b
+	 * @param c is side c
+	 * @return Square
+	 */
 	public String triangleSquare (int a, int b, int c) {
 		DecimalFormat df = new DecimalFormat("#.##");
 		int p = trianglePerimeter(a, b, c); 
