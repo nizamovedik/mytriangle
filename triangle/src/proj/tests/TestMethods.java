@@ -1,8 +1,9 @@
 package proj.tests;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 import proj.props.*;
 import org.junit.Test;
+import org.junit.Assert;
 
 public class TestMethods {
 	
